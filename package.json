@@ -1,16 +1,29 @@
 {
-  "name": "sass2less",
-  "version": "1.0.0",
-  "description": "",
+  "name": "sassConvertLess",
+  "version": "1.0.2",
+  "description": "sass less css 互转的工具",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "sass2less",
+    "css2less",
+    "sass2less",
+    "所有sass文件less",
+    "scss2less"
+  ],
+  "author": "zhoulujun.cn",
+  "license": "MIT",
   "dependencies": {
-    "css2less": "^0.1.4",
     "sass.js": "^0.11.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhoulujun/sassConvertLess.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhoulujun/sass2less/issues"
+  },
+  "homepage": "https://github.com/zhoulujun/sass2less#readme"
 }

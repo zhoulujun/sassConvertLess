@@ -1,5 +1,12 @@
 const fs = require('fs')
 
+/**
+ * author zhoulujun.cn
+ * version 1.0
+ * 读取文件目录
+ * @param dirFatherPath {String} 文件目录
+ * @param operateFileFun {Function} 操作文件的回调函数
+ */
 function readDir (dirFatherPath, operateFileFun) {
     fs.readdir(dirFatherPath, (err, fileList) => {
         if (err) {

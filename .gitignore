@@ -2,3 +2,4 @@
 /node_modules/
 /sass2less.iml
 /package-lock.json
+git remote add origin https://github.com/zhoulujun/sass2less.git
