@@ -1,6 +1,6 @@
 {
   "name": "sassConvertLess",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "sass less css 互转的工具",
   "main": "index.js",
   "scripts": {
