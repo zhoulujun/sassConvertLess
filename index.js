@@ -7,8 +7,8 @@ const css2less = require('./src/css2less')
  * author zhoulujun.cn
  * version 1.0
  * @param dir {String} filePath 文件目录
- * @param sassToCssOptions {Object} sass输出配置文件
- * @param cssToLessOptions css2less输出配置文件 参考 https://github.com/sshmyg/css2less
+ * @param sassToCssOptions {Object} sass输出配置文件，uuti参照 compile.Sass.style.expanded
+ * @param cssToLessOptions css2less输出配置文件 参考 https://github.com/zhoulujun/css2less fork 自： https://github.com/sshmyg/css2less
  * @param fileWriteOptions fs.writeFile options
  */
 function sass2less (dir, sassToCssOptions, cssToLessOptions = {updateColors: true}, fileWriteOptions = null) {

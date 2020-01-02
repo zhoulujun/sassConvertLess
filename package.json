@@ -1,6 +1,6 @@
 {
   "name": "sass2less.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "文件夹下所有sass文件转换为less",
   "main": "index.js",
   "scripts": {
